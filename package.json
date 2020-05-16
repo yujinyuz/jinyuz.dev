@@ -1,7 +1,7 @@
 {
   "version": "3.0.3",
-  "name": "gatsby-starter-lumen",
-  "description": "A minimal, lightweight and mobile-first starter for creating blazing-fast static blogs",
+  "name": "yujinyuz.github.io",
+  "description": "Blogsite using gatsby-starter-lumen",
   "main": "n/a",
   "scripts": {
     "develop": "yarn run clean && gatsby develop",
@@ -16,8 +16,8 @@
     "test:coverage": "jest --coverage --config ./jest/jest-config.js",
     "test:watch": "jest --watch --config ./jest/jest-config.js"
   },
-  "repository": "https://github.com/alxshelepenok/gatsby-starter-lumen",
-  "author": "Alexander Shelepenok <alxshelepenok@gmail.com>",
+  "repository": "https://github.com/yujinyuz/yujinyuz.github.io",
+  "author": "Eugene Oliveros",
   "license": "MIT",
   "keywords": [
     "gatsby",
@@ -27,15 +27,8 @@
     "pagination",
     "categories",
     "tags",
-    "prismjs",
     "static",
-    "lost",
     "blog",
-    "minimal",
-    "react",
-    "theme",
-    "starter",
-    "disqus"
   ],
   "dependencies": {
     "bluebird": "^3.7.2",
