@@ -28,7 +28,7 @@
     "categories",
     "tags",
     "static",
-    "blog",
+    "blog"
   ],
   "dependencies": {
     "bluebird": "^3.7.2",
