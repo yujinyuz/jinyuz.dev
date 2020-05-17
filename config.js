@@ -8,7 +8,7 @@ module.exports = {
   title: '@yujinyuz',
   subtitle: 'I\'m not sure where this is used.....',
   copyright: '© All rights reserved.',
-  disqusShortname: '',
+  disqusShortname: 'jinyuz',
   postsPerPage: 4,
   googleAnalyticsId: 'UA-109673795-2',
   useKatex: false,
