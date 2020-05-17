@@ -1,7 +1,6 @@
 ---
 title: "About me"
 template: "page"
-socialImage: ""
 ---
 
 I love to write clean and readable code. When developing software,
@@ -11,30 +10,23 @@ I go by the quote:
 >
 > -- <cite>Kent Beck</cite>
 
-Currently, I'm using these languages for scripting and web development:
+Currently, I am familiar working with these languages/frameworks for scripting and web development:
 
 - HTML5 and CSS3
 - ECMAScript aka Javascript
-- Python
-- Ruby
-- Shell
-
-I'm familiar working with these Web Frameworks:
-
+  - ReactJS
+  - GatsbyJS
 - Python
   - Django
   - Flask
-- Javascript
-  - ReactJS
-  - Gatsby
 - Ruby
   - Ruby on Rails
-
+- Shell
 
 Other tools under my belt:
 
 - (neo)vim -- my main `$EDITOR`.
-- fish -- my current shell (preivously `zsh`).
+- fish -- my current `$SHELL` (preivously `zsh`).
 - alacritty -- my current terminal (previously `iTerm2`).
 - ripgrep -- better replacement for `grep`.
 - fzf -- an awesome fuzzy finder!
