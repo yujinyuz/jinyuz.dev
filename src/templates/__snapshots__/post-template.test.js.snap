@@ -88,10 +88,7 @@ exports[`PostTemplate renders correctly 1`] = `
             rel="noopener noreferrer"
             target="_blank"
           >
-            <strong>
-              Test name
-            </strong>
-             on Twitter
+            I'm on Twitter!
           </a>
         </p>
       </div>
