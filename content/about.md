@@ -10,7 +10,8 @@ I go by the quote:
 >
 > -- <cite>Kent Beck</cite>
 
-Currently, I am familiar working with these languages/frameworks for scripting and web development:
+Currently, I am familiar and comfortable with working in these languages
+and frameworks for scripting and web development:
 
 - HTML5 and CSS3
 - ECMAScript aka Javascript
@@ -26,11 +27,11 @@ Currently, I am familiar working with these languages/frameworks for scripting a
 Other tools under my belt:
 
 - (neo)vim -- my main `$EDITOR`.
-- fish -- my current `$SHELL` (preivously `zsh`).
+- fish -- my current `$SHELL` (previously `zsh`).
 - alacritty -- my current terminal (previously `iTerm2`).
 - ripgrep -- better replacement for `grep`.
 - fzf -- an awesome fuzzy finder!
 
-I try to be language agnostic as much as possible. I believe that those languages
-and frameworks are just tools to achieve a goal and shouldn't be a basis
-of ones capabilities.
+I try to be language agnostic as much as possible. Languages and frameworks are just
+tools to achieve a goal and it doesn't define one's capabilities. It's about choosing
+the right tools for the right job that makes you a better developer!
