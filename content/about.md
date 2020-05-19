@@ -23,14 +23,7 @@ and frameworks for scripting and web development:
 - Ruby
   - Ruby on Rails
 - Shell
-
-Other tools under my belt:
-
-- (neo)vim -- my main `$EDITOR`.
-- fish -- my current `$SHELL` (previously `zsh`).
-- alacritty -- my current terminal (previously `iTerm2`).
-- ripgrep -- better replacement for `grep`.
-- fzf -- an awesome fuzzy finder!
+- [Other tools under my belt](/uses)
 
 I try to be language agnostic as much as possible. Languages and frameworks are just
 tools to achieve a goal and it doesn't define one's capabilities. It's about choosing
