@@ -15,16 +15,16 @@ module.exports = {
   menu: [
     {
       label: 'Blog',
-      path: '/'
+      path: '/',
     },
     {
       label: 'About me',
-      path: '/about'
+      path: '/about',
     },
     {
-      label: 'Contact me',
-      path: '/contact'
-    }
+      label: 'Uses',
+      path: '/uses',
+    },
   ],
   author: {
     name: '@yujinyuz',
@@ -45,7 +45,7 @@ module.exports = {
       weibo: '',
       codepen: USERNAME,
       youtube: '',
-      soundcloud: ''
-    }
-  }
+      soundcloud: '',
+    },
+  },
 };
