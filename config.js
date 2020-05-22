@@ -10,7 +10,7 @@ module.exports = {
   copyright: '© All rights reserved.',
   disqusShortname: 'jinyuz',
   postsPerPage: 4,
-  googleAnalyticsId: 'UA-109673795-2',
+  googleAnalyticsId: 'UA-167446454-1',
   useKatex: false,
   menu: [
     {
