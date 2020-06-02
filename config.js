@@ -6,7 +6,7 @@ module.exports = {
   url: 'https://jinyuz.me',
   pathPrefix: '/',
   title: '@yujinyuz',
-  subtitle: 'I\'m not sure where this is used.....',
+  subtitle: 'Eugene Oliveros | Software Developer. A lazy one.',
   copyright: '© All rights reserved.',
   disqusShortname: 'jinyuz',
   postsPerPage: 4,
@@ -29,7 +29,7 @@ module.exports = {
   author: {
     name: '@yujinyuz',
     photo: '/photo.jpg',
-    bio: 'Just another dev',
+    bio: 'Software Developer. A lazy one.',
     contacts: {
       email: 'eevoliveros@gmail.com',
       facebook: '',
