@@ -17,14 +17,14 @@ your git commit emails from Amazon and your personal projects.
 
 Setting up `~/.gitconfig`
 
-```sh
+```shell
 $ touch ~/.gitconfig
 ```
 
 For our personal projects, we will use the `~/.gitconfig` file with the following
 content:
 
-```gitconfig
+```shell
 [user]
   name = James Banned
   email = james.banned@gmail.com
@@ -39,19 +39,19 @@ the `~/Work` directory.
 Now, let's create the `~/.gitconfig.work` so `git` would read that config every
 time we are working on our work related projects
 
-```sh
+```shell
 $ touch ~/.gitconfig.work
 ```
 
 Copy the following to the newly created file:
-```gitconfig
+```shell
 [user]
   email = james.banned@amazon.com
 ```
 
 Now, this will use `james.banned@amazon.com` email when doing a
 
-```sh
+```shell
 $ pwd
 /Users/me/Work/amazon
 $ git commit -m "Update README.md"
@@ -61,7 +61,7 @@ $ git commit -m "Update README.md"
 
 Result:
 
-```sh
+```shell
 
 $ git log
 

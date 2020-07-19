@@ -33,25 +33,25 @@ But I did feel that the benefits of using `asdf-vm` outweighs the cons so I went
 
 # Installation
 
-```
+```shell
 $ git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.7.8
 ```
 
 `asdf` has a pretty good documentation to be honest. Despite `brew` being my go to package manager, I chose `git` as my installation method.
 My reason is that `asdf` requires me to add this line in my `config.fish`
 
-```
+```shell
 source (brew --prefix asdf)/asdf.fish
 ```
 and the `brew --prefix adsf` is just too slow compared to just having this
 
-```
+```shell
 source $HOME/.asdf/asdf.fish
 ```
 
 Next, for the auto completions just run this command in your terminal:
 
-```fish
+```shell
 $ mkdir -p ~/.config/fish/completions; and cp ~/.asdf/completions/asdf.fish ~/.config/fish/completions
 ```
 
@@ -62,7 +62,7 @@ You can checkout a more detailed documentation here: https://asdf-vm.com/#/core-
 
 Before, my `config.fish` looked something like this:
 
-```fish
+```shell
 # pyenv
 set -gx PYENV_ROOT $HOME/.pyenv
 set -gx PYTHON_BUILD_ARIA2_OPTS "-x 10 -k 1M" # Use aria2c when downloading
@@ -84,7 +84,7 @@ contains $nvm_alias_output $fish_user_paths; or set -Ua fish_user_paths $nvm_ali
 
 After
 
-```fish
+```shell
 # pyenv (asdf still uses pyenv under the hood)
 set -gx PYTHON_BUILD_ARIA2_OPTS "-x 10 -k 1M" # Use aria2c when downloading
 
@@ -98,7 +98,7 @@ Again, most of the things I put here just came from the documentation: https://a
 
 ## pyenv replacement
 
-```sh
+```shell
 $ asdf plugin add python
 $ asdf install python latest:3 # At the moment of writing this, it installed 3.8.4
 $ asdf global python 3.8.4 # This sets python 3.8.4 as our default python version
@@ -106,7 +106,7 @@ $ asdf global python 3.8.4 # This sets python 3.8.4 as our default python versio
 
 ## rbenv replacement
 
-```sh
+```shell
 $ asdf plugin add ruby
 $ asdf install ruby latest # We can omit the version number. Currently installs 2.7.1
 $ asdf global ruby 2.7.1
@@ -114,14 +114,14 @@ $ asdf global ruby 2.7.1
 
 ## goenv replacement
 
-```sh
+```shell
 $ asdf plugin add golang
 $ asdf install golang latest # 1.14.6
 $ asdf global golang 1.14.6
 ```
 ## nvm replacement
 
-```sh
+```shell
 $ asdf plugin add nodejs
 $ asdf install nodejs 12.18.2
 $ asdf global nodejs 12.18.2
@@ -129,7 +129,7 @@ $ asdf global nodejs 12.18.2
 
 Using `asdf global` creates a file under your HOME directory called `.tool-versions`
 
-```sh
+```shell
 $ cat ~/.tool-versions
 python 3.8.4
 ruby 2.7.1
@@ -141,7 +141,7 @@ This lets `asdf` know which versions to use. And of course, in contrast to `glob
 there is also the `local` keyword that creates another `.tool-versions`.
 This is useful when projects require different version.
 
-```sh
+```shell
 $ cd ~/project1
 $ asdf local python 3.7.5
 $ python --version # Uses the python version specified in .tool-versions
@@ -158,13 +158,13 @@ $ python --version # Uses the python version specified in ~/.tool-versions
 In order to accommodate my work flow when I was still using `pyenv virtualenv`,
 I created a function that behaves quite similar to `pyenv virtualenv`.
 
-```sh
+```shell
 $ touch ~/.config/fish/functions/venv.fish
 ```
 
 And paste the following:
 
-```
+```shell
 function venv --argument-names 'python_version' --description 'Create virtualenv named the same as current directory'
   set -l python_bin
 
@@ -196,13 +196,13 @@ and it will automatically create a virtualenv under `~/.virtualenvs` using the c
 
 In order to automatically activate the virtualenv when `cd`ing to a project, do the following:
 
-```sh
+```shell
 $ touch ~/.config/fish/conf.d/__auto_venv.fish
 ```
 
 And paste the following:
 
-```sh
+```shell
 function __auto_venv --on-variable PWD --description "Automatically activate python venv"
   set -l venv_name (basename $PWD | tr . -)
 
