@@ -28,12 +28,12 @@ content:
 [user]
   name = James Banned
   email = james.banned@gmail.com
-[includeIf "gitdir:~/Work"]
+[includeIf "gitdir:~/Work/"]
   path = ~/.gitconfig.work
 ```
 
 The `includeIf` basically means that include this config if I'm inside
-the `~/Work` directory.
+the `~/Work/` directory.
 
 
 Now, let's create the `~/.gitconfig.work` so `git` would read that config every
