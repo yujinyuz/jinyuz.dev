@@ -3,7 +3,7 @@
 const USERNAME = 'yujinyuz';
 
 module.exports = {
-  url: 'https://jinyuz.me',
+  url: 'https://jinyuz.dev',
   pathPrefix: '/',
   title: '@yujinyuz',
   subtitle: 'Eugene Oliveros | Software Developer. A lazy one.',
