@@ -28,3 +28,4 @@ and frameworks for scripting and web development:
 I try to be language agnostic as much as possible. Languages and frameworks are just
 tools to achieve a goal and it doesn't define one's capabilities. It's about choosing
 the right tools for the right job that makes you a better developer!
+

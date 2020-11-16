@@ -3,7 +3,7 @@
 const USERNAME = 'yujinyuz';
 
 module.exports = {
-  url: 'https://jinyuz.me',
+  url: 'https://jinyuz.dev',
   pathPrefix: '/',
   title: '@yujinyuz',
   subtitle: 'Eugene Oliveros | Software Developer. A lazy one.',
@@ -15,37 +15,38 @@ module.exports = {
   menu: [
     {
       label: 'Blog',
-      path: '/',
+      path: '/'
     },
     {
       label: 'About me',
-      path: '/about',
+      path: '/about'
     },
     {
       label: 'Uses',
-      path: '/uses',
-    },
+      path: '/uses'
+    }
   ],
   author: {
     name: '@yujinyuz',
     photo: '/photo.jpg',
     bio: 'Software Developer. A lazy one.',
     contacts: {
-      email: 'eevoliveros@gmail.com',
+      email: 'yujinyuz@pm.me',
       facebook: '',
       telegram: '',
       twitter: `${USERNAME}_`,
-      github: USERNAME,
+      github: `${USERNAME}`,
       rss: '',
       vkontakte: '',
-      linkedin: USERNAME,
-      instagram: USERNAME,
+      linkedin: `${USERNAME}`,
+      instagram: `${USERNAME}`,
       line: '',
       gitlab: '',
       weibo: '',
-      codepen: USERNAME,
+      codepen: `${USERNAME}`,
       youtube: '',
       soundcloud: '',
-    },
-  },
+      medium: '',
+    }
+  }
 };

@@ -14,7 +14,10 @@ exports[`Author renders correctly 1`] = `
       rel="noopener noreferrer"
       target="_blank"
     >
-      I'm on Twitter!
+      <strong>
+        Test name
+      </strong>
+       on Twitter
     </a>
   </p>
 </div>
