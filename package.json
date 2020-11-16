@@ -4,6 +4,7 @@
   "description": "My webspace",
   "main": "n/a",
   "scripts": {
+    "mkpost": "lumen-post",
     "develop": "yarn run clean && gatsby develop",
     "build": "yarn run clean && gatsby build",
     "deploy": "yarn run clean && gatsby build --prefix-paths && gh-pages -d public",
@@ -45,6 +46,7 @@
     "codecov": "^3.8.1",
     "gatsby": "^2.26.1",
     "gatsby-link": "^2.5.0",
+    "gatsby-lumen-post-cli": "^1.0.4",
     "gatsby-plugin-catch-links": "^2.4.0",
     "gatsby-plugin-feed": "^2.7.0",
     "gatsby-plugin-flow": "^1.4.0",
