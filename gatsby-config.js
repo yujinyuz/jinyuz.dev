@@ -18,8 +18,8 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/content`,
-        name: 'pages'
+        path: `${__dirname}/static`,
+        name: 'assets'
       }
     },
     {
@@ -32,15 +32,15 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'css',
-        path: `${__dirname}/static/css`
+        path: `${__dirname}/content`,
+        name: 'pages'
       }
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'assets',
-        path: `${__dirname}/static`
+        name: 'css',
+        path: `${__dirname}/static/css`
       }
     },
     {
@@ -57,17 +57,18 @@ module.exports = {
             }
           }
         `,
-        feeds: [
-          {
-            serialize: ({ query: { site, allMarkdownRemark } }) => allMarkdownRemark.edges.map((edge) => ({
+        feeds: [{
+          serialize: ({ query: { site, allMarkdownRemark } }) => (
+            allMarkdownRemark.edges.map((edge) => ({
               ...edge.node.frontmatter,
               description: edge.node.frontmatter.description,
               date: edge.node.frontmatter.date,
               url: site.siteMetadata.site_url + edge.node.fields.slug,
               guid: site.siteMetadata.site_url + edge.node.fields.slug,
               custom_elements: [{ 'content:encoded': edge.node.html }]
-            })),
-            query: `
+            }))
+          ),
+          query: `
               {
                 allMarkdownRemark(
                   limit: 1000,
@@ -92,10 +93,9 @@ module.exports = {
                 }
               }
             `,
-            output: '/rss.xml',
-            title: siteConfig.title
-          }
-        ]
+          output: '/rss.xml',
+          title: siteConfig.title
+        }]
       }
     },
     {
@@ -113,8 +113,7 @@ module.exports = {
             resolve: 'gatsby-remark-images',
             options: {
               maxWidth: 960,
-              withWebp: true,
-              ignoreFileExtensions: []
+              withWebp: true
             }
           },
           {
@@ -188,7 +187,7 @@ module.exports = {
         theme_color: '#F7A046',
         display: 'standalone',
         icon: 'static/photo.jpg'
-      }
+      },
     },
     'gatsby-plugin-offline',
     'gatsby-plugin-catch-links',
@@ -200,6 +199,13 @@ module.exports = {
         cssLoaderOptions: {
           camelCase: false
         }
+      }
+    },
+    {
+      resolve: '@sentry/gatsby',
+      options: {
+        dsn: process.env.SENTRY_DSN,
+        tracesSampleRate: 1
       }
     },
     'gatsby-plugin-flow',

@@ -1,7 +1,6 @@
 ---
 title: "Uses"
 template: "page"
-socialImage: ""
 ---
 
 If you've ever wondered what I'm using be it software, hardware, fonts, etc. then
@@ -59,3 +58,4 @@ this page is dedicated for that 😉. Based on [uses.tech](https://uses.tech)
 
 You can also check out some of my configurations (.vimrc, .tmux.conf, etc.) in my
 [dotfiles](https://github.com/yujinyuz/dotfiles) repository.
+
