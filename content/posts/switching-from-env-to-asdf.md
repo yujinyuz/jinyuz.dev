@@ -5,6 +5,8 @@ draft: false
 tags:
   - "config"
   - "dotfiles"
+aliases:
+  - "/posts/tips-and-tricks/Switching-from-pyenv,-rbenv,-goenv-and-nvm-to-asdf"
 ---
 
 So, there was a time when I was only developing applications using `Python`. And so I found out about virtual environments.

@@ -5,6 +5,8 @@ draft: false
 tags:
   - "django"
   - "python"
+aliases:
+  - "/posts/snippets/Django:-Display-raw-SQL-of-a-queryset"
 ---
 
 Often, I forget how to display the raw SQL of a queryset in Django.

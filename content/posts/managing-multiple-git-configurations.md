@@ -6,6 +6,8 @@ tags:
   - "git"
   - "config"
   - "dotfiles"
+aliases:
+  - "/posts/tips-and-tricks/Managing-Multiple-Git-Configurations"
 ---
 
 Suppose that you have a full time job at Amazon, and you want to separate
