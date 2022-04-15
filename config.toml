@@ -19,6 +19,9 @@ enableMediumZoom = true
 reversepagetitle = true
 favicon = "favicons/"
 copyright = "All rights reserved 2018-{{ YEAR }}"
+readMore = true
+relatedPosts = true
+numberOfRelatedPosts = 3
 # hidesidebar = true
 contentratio = 0.7
 
@@ -58,7 +61,7 @@ url = "/"
 name = "Posts"
 weight = 200
 identifier = "posts"
-url = "/posts/"
+url = "/post/"
 
 [[menu.main]]
 name = "Uses"
@@ -74,6 +77,17 @@ url = "/about/"
 
 [permalinks]
 posts = '/:year/:month/:title/'
+
+[related]
+  includeNewer = true
+  threshold = 80
+  toLower = true
+[[related.indices]]
+  name = 'keywords'
+  weight = 100
+[[related.indices]]
+  name = 'tags'
+  weight = 80
 
 [module]
 # uncomment line below for temporary local development of module
