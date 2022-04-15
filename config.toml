@@ -76,7 +76,7 @@ identifier = "about-me"
 url = "/about/"
 
 [permalinks]
-posts = '/:year/:month/:title/'
+post = '/:year/:month/:title/'
 
 [related]
   includeNewer = true
