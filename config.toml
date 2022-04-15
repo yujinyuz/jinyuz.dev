@@ -4,7 +4,7 @@ title = "@yujinyuz"
 pygmentsUseClasses = true
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
-disqusShortname = "jinyuz"
+# disqusShortname = "jinyuz"
 googleAnalytics = "UA-167446454-1"
 paginate = 3
 
@@ -24,6 +24,12 @@ relatedPosts = true
 numberOfRelatedPosts = 3
 # hidesidebar = true
 contentratio = 0.7
+
+[params.utterances]
+repo = "yujinyuz/jinyuz.dev"
+issueTerm = "title"
+label = "post:comment"
+theme = "github-light"
 
 [[params.socialIcons]]
 icon = "fab fa-linkedin"
