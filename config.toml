@@ -5,6 +5,7 @@ pygmentsUseClasses = true
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 disqusShortname = "jinyuz"
+googleAnalytics = "UA-167446454-1"
 paginate = 3
 
 [params]
