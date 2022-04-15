@@ -1,0 +1,82 @@
+baseURL = "https://jinyuz.dev"
+languageCode = "en-us"
+title = "@yujinyuz"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+disqusShortname = "jinyuz"
+paginate = 3
+
+[params]
+title = "@yujinyuz"
+author = "Eugene Oliveros"
+description = "Software Engineer"
+profilePicture = "avatar.jpg"
+customCss = ["css/overrides.css", "css/syntax.css"]
+doNotLoadAnimations = true
+enableMediumZoom = true
+reversepagetitle = true
+favicon = "favicons/"
+copyright = "All rights reserved 2018-{{ YEAR }}"
+# hidesidebar = true
+contentratio = 0.7
+
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://linkedin.com/in/yujinyuz/"
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "GitHub"
+url = "https://github.com/yujinyuz"
+[[params.socialIcons]]
+icon = "fab fa-twitter"
+title = "Twitter"
+url = "https://twitter.com/_yujinyuz"
+[[params.socialIcons]]
+icon = "fab fa-instagram"
+title = "Instagram"
+url = "https://instagram.com/yujinyuz"
+[[params.socialIcons]]
+icon = "fab fa-codepen"
+title = "Email"
+url = "https://codepen.io/yujinyuz"
+[[params.socialIcons]]
+icon = "fa fa-envelope"
+title = "Email"
+url = "mailto:yujinyuz@pm.me"
+
+[menu]
+[[menu.main]]
+name = "Home"
+identifier = "home"
+weight = 100
+url = "/"
+
+[[menu.main]]
+name = "Posts"
+weight = 200
+identifier = "posts"
+url = "/posts/"
+
+[[menu.main]]
+name = "Uses"
+weight = 300
+identifier = "uses"
+url = "/uses/"
+
+[[menu.main]]
+name = "About Me"
+weight = 400
+identifier = "about-me"
+url = "/about/"
+
+[permalinks]
+posts = '/:year/:month/:title/'
+
+[module]
+# uncomment line below for temporary local development of module
+# replacements = "github.com/lxndrblz/anatole -> ../../anatole"
+[[module.imports]]
+path = "github.com/lxndrblz/anatole"
+disable = false

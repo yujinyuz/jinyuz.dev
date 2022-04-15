@@ -1,6 +1,5 @@
 ---
 title: "About me"
-template: "page"
 ---
 
 I love to write clean and readable code. When developing software,
@@ -23,7 +22,7 @@ and frameworks for scripting and web development:
 - Ruby
   - Ruby on Rails
 - Shell
-- [Other tools under my belt](/uses)
+- [Other tools under my belt](/uses/)
 
 I try to be language agnostic as much as possible. Languages and frameworks are just
 tools to achieve a goal and it doesn't define one's capabilities. It's about choosing
