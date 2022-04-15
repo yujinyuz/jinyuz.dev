@@ -23,7 +23,7 @@ Everything was fine until I kinda felt my `config.fish` file got bloated and som
 
 I did do some optimizations such as lazy loading `nvm` and used a `fish` plugin called [fish-nvm](https://github.com/FabioAntunes/fish-nvm).
 
-And then one day, I found out about [asdf-vm](https://google.com).
+And then one day, I found out about [asdf-vm](https://asdf-vm.com/).
 
 At first, I was quite hesitant to install it since it would kinda disrupt my work flow with python projects since I heavily use `pyenv virtualenv <version> <name>`.
 
