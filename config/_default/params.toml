@@ -1,0 +1,39 @@
+colorScheme = "ocean"
+
+enableSearch = true
+enableCodeCopy = true
+attribution = false
+
+
+[homepage]
+layout = "profile"
+
+[article]
+  showDate = true
+  showDateUpdated = true
+  showAuthor = true
+  showBreadcrumbs = false
+  showDraftLabel = true
+  showEdit = true
+  editURL = "https://github.com/yujinyuz/jinyuz.dev/tree/master/content/"
+  editAppendPath = true
+  showHeadingAnchors = true
+  showPagination = true
+  invertPagination = false
+  showReadingTime = true
+  showTableOfContents = true
+  showTaxonomies = false
+  showWordCount = false
+  sharingLinks = ["facebook", "twitter", "reddit", "linkedin"]
+
+[list]
+  showBreadcrumbs = false
+  showSummary = true
+  showTableOfContents = true
+  groupByYear = false
+
+[utterances]
+  repo = "yujinyuz/jinyuz.dev"
+  issueTerm = "title"
+  label = "post:comment"
+  theme = "preferred-color-scheme"

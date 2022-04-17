@@ -1,0 +1,15 @@
+title = "jinyuz.dev"
+
+[author]
+name = "@yujinyuz"
+image = "img/avatar.jpg"
+headline = "Software Engineer"
+bio = "A little bit about me"
+links = [
+  { linkedin = "https://linkedin.com/in/yujinyuz" },
+  { github = "https://github.com/yujinyuz" },
+  { twitter = "https://twitter.com/_yujinyuz" },
+  { instagram = "https://instagram.com/yujinyuz" },
+  { codepen = "https://codepen.io/yujinyuz" },
+  { email = "mailto:yujinyuz@pm.me" },
+]

@@ -1,6 +1,12 @@
 ---
 title: "About me"
+showDate: false
+showEdit: false
+showReadingTime: false
+showPagination: false
 ---
+
+# Welcome!
 
 I love to write clean and readable code. When developing software,
 I go by the quote:
@@ -15,10 +21,10 @@ and frameworks for scripting and web development:
 - HTML5 and CSS3
 - ECMAScript aka Javascript
   - ReactJS
-  - GatsbyJS
 - Python
   - Django
   - Flask
+  - FastAPI
 - Ruby
   - Ruby on Rails
 - Shell
