@@ -1,6 +1,12 @@
 ---
 title: "Uses"
+showDate: false
+showEdit: false
+showReadingTime: false
+showPagination: false
 ---
+
+# Introduction
 
 If you've ever wondered what I'm using be it software, hardware, fonts, etc. then
 this page is dedicated for that 😉 Based on [uses.tech](https://uses.tech)
@@ -49,11 +55,6 @@ this page is dedicated for that 😉 Based on [uses.tech](https://uses.tech)
   - Surfingkeys -- for `vim` keybindings while browsing
   - Visbug -- pretty neat tool for frontend development
   - Octotree -- useful when browsing files in GitHub repositories
-- For watching anime, these are my go to sites:
-  - [aniwatch.me](https://aniwatch.me)
-  - [4anime.to](https://4anime.to)
-  - [animepahe](https://animepahe.com)
-  - [animekisa](https://animekisa.tv)
 
 You can also check out some of my configurations (.vimrc, .tmux.conf, etc.) in my
 [dotfiles](https://github.com/yujinyuz/dotfiles) repository.
