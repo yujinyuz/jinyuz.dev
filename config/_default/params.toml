@@ -1,6 +1,6 @@
 colorScheme = "ocean"
 
-enableSearch = true
+enableSearch = false
 enableCodeCopy = true
 attribution = false
 
@@ -22,7 +22,7 @@ layout = "profile"
   invertPagination = false
   showReadingTime = true
   showTableOfContents = true
-  showTaxonomies = false
+  showTaxonomies = true
   showWordCount = false
   sharingLinks = ["facebook", "twitter", "reddit", "linkedin"]
 
