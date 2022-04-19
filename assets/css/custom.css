@@ -83,3 +83,12 @@
 /* GenericTraceback */ .chroma .gt {  }
 /* GenericUnderline */ .chroma .gl {  }
 /* TextWhitespace */ .chroma .w {  }
+
+
+
+
+/* Remove backticks */
+.prose :where(code):not(:where([class~=not-prose] *))::before,
+.prose :where(code):not(:where([class~=not-prose] *))::after {
+  content: ""
+}
