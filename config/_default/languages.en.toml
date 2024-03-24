@@ -1,15 +1,14 @@
 title = "jinyuz.dev"
 
-[author]
+[params.author]
 name = "@yujinyuz"
 image = "img/avatar.jpg"
 headline = "Software Engineer"
-bio = "A little bit about me"
+bio = "Terminerd"
 links = [
   { linkedin = "https://linkedin.com/in/yujinyuz" },
   { github = "https://github.com/yujinyuz" },
   { twitter = "https://twitter.com/yujinyuz_" },
   { instagram = "https://instagram.com/yujinyuz" },
-  { codepen = "https://codepen.io/yujinyuz" },
   { email = "mailto:hello@jinyuz.dev" },
 ]
