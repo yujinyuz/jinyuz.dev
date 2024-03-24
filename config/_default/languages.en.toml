@@ -2,7 +2,7 @@ title = "jinyuz.dev"
 
 [params.author]
 name = "@yujinyuz"
-image = "img/avatar.jpg"
+image = "img/avatar.png"
 headline = "Software Engineer"
 bio = "Terminerd"
 links = [
