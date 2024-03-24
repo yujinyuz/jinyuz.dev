@@ -5,8 +5,6 @@ draft: false
 description: ""
 tags:
   - ""
-categories:
-  - ""
 ---
 
 I think it's overall better than my previous post for managing multiple git users since we are just

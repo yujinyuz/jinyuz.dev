@@ -6,8 +6,6 @@ description: ""
 tags:
   - vim
   - neovim
-categories:
-  -
 ---
 
 

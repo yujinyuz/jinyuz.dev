@@ -5,8 +5,6 @@ draft: false
 description: ""
 tags:
   - ""
-categories:
-  - ""
 ---
 
 
@@ -27,9 +25,6 @@ env LIBRARY_PATH="/usr/local/opt/openssl@3/lib" pip install psycopg2 --no-cache
 
 
 Source: https://stackoverflow.com/questions/26288042/error-installing-psycopg2-library-not-found-for-lssl/39244687#39244687
-
-## Not long
-
 
 The reason is that probably it might work faster in my machine if it was installed using the not
 binary version

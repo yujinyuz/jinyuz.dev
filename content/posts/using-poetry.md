@@ -4,11 +4,7 @@ date: 2022-05-31T19:01:32+08:00
 draft: false
 description: ""
 tags:
-  - ""
-categories:
-  - ""
 ---
-
 
 I thought poetry would disrupt my workflow because it will automatically create its own virtualenv
 and I wouldn't be able to leverage `virtualfish` auto_activate feature.

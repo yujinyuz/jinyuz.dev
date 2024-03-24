@@ -4,9 +4,7 @@ date: 2022-06-12T22:08:04+08:00
 draft: false
 description: ""
 tags:
-  - ""
-categories:
-  - ""
+  - "python"
 ---
 
 # TL;DR

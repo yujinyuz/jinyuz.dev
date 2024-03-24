@@ -4,9 +4,8 @@ date: 2022-06-25T11:06:42+08:00
 draft: false
 description: ""
 tags:
-  - ""
-categories:
-  - ""
+  - "vim"
+  - "neovim"
 ---
 
 
@@ -14,10 +13,9 @@ TL;DR
 
 ```vim
 :s/\v(\S+)/"\1"/
-
-
-
 ```
+
+You can also use `ysw(`
 
 
 Source:

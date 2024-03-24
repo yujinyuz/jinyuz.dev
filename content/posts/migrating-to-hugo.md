@@ -4,8 +4,6 @@ date: 2022-04-15T21:11:26+08:00
 description: ""
 tags:
   - "hugo"
-categories:
-  - "self"
 ---
 
 It's been a while since I last posted and one of the reasons was that I was using GatsbyJS and
