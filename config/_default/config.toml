@@ -1,7 +1,5 @@
 baseURL = "https://jinyuz.dev"
 languageCode = "en"
-summaryLength = 15
-googleAnalytics = "UA-167446454-1"
 paginate = 10
 
 [permalinks]

@@ -1,7 +1,13 @@
 [[main]]
 name = "Posts"
-pageRef = "post"
+pageRef = "posts"
 weight = 10
+
+[[main]]
+name = "Weekly Journal"
+pageRef = "weekly-journal"
+weight = 15
+
 
 [[main]]
 name = "Uses"
