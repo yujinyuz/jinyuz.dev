@@ -28,15 +28,11 @@ showWordCount = true
 showComments = true
 sharingLinks = ["facebook", "twitter", "reddit", "linkedin"]
 
-
 [list]
 showBreadcrumbs = false
 showSummary = false
 showTableOfContents = true
 groupByYear = false
 
-[utterances]
-repo = "yujinyuz/jinyuz.dev"
-issueTerm = "title"
-label = "post:comment"
-theme = "preferred-color-scheme"
+[footer]
+showThemeAttribution = false

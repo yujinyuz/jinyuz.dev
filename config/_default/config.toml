@@ -4,3 +4,7 @@ paginate = 10
 
 [permalinks]
 post = '/:year/:month/:title/'
+
+[outputs]
+home = ["HTML", "RSS"]
+posts = ["HTML", "RSS"]
