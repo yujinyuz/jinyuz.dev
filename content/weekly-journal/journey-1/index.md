@@ -5,7 +5,7 @@ draft: false
 ---
 
 I couldn't think of a good title and I don't even know whether I should continue creating one but I
-guess it's quite fun and gives me a little bit of a summary of what I did that week.
+guess it's quite fun and gives me a little bit of a summary of what I did that week[^1].
 
 ## Wheels
 
@@ -63,7 +63,7 @@ system here is the _worst_ where you have to get in line for hours just to get a
 What I love about the holidays, especially when you live in the city is that people go home to their
 respective provinces, and that leaves the roads clear, less people, less traffic. And that's one of
 the times I enjoy riding a bike because I don't have to deal with drivers not respecting the bike
-lanes and also the smoke emitted by PUVs.[^1]
+lanes and also the smoke emitted by PUVs.[^2]
 
 ![Smoke](./images/smoke.png)
 
@@ -73,5 +73,8 @@ journal so I don't end up rushing things. Probably the best day would be a Sunda
 would be around 19:00 after dinner.
 
 
-[^1]: I hope they would do something about this where the smoke emitted is already dangerous, what
+[^1]: I kinda forgot to include that I attended an online talk on celebrating Women's month this
+    March. It was a great experience to just listen to women in tech and how they got themselves in
+    this field!
+[^2]: I hope they would do something about this where the smoke emitted is already dangerous, what
     more of the fact that the color of the smoke is black!
