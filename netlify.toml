@@ -1,0 +1,11 @@
+[build]
+command = "hugo mod get -u && hugo --gc --minify -b $URL"
+publish = "public"
+
+[build.environment]
+HUGO_VERSION = "0.119.0"
+NODE_ENV = "production"
+TZ = "Asia/Manila"
+
+[context.production.environment]
+HUGO_ENV = "production"
