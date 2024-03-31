@@ -4,8 +4,8 @@ date: 2024-03-31T21:25:14+08:00
 draft: false
 ---
 
-I couldn't think of a good title and I don't even know whether I should continue creating one but I
-guess it's quite fun and gives me a little bit of a summary of what I did that week[^1].
+I couldn't think of a good title[^1] and I don't even know whether I should continue creating one but I
+guess it's quite fun and gives me a little bit of a summary of what I did that week[^2].
 
 ## Wheels
 
@@ -73,8 +73,9 @@ journal so I don't end up rushing things. Probably the best day would be a Sunda
 would be around 19:00 after dinner.
 
 
-[^1]: I kinda forgot to include that I attended an online talk on celebrating Women's month this
+[^1]: Creating titles were inspired from watching Big Bang Theory and Young Sheldon
+[^2]: I kinda forgot to include that I attended an online talk on celebrating Women's month this
     March. It was a great experience to just listen to women in tech and how they got themselves in
     this field!
-[^2]: I hope they would do something about this where the smoke emitted is already dangerous, what
+[^3]: I hope they would do something about this where the smoke emitted is already dangerous, what
     more of the fact that the color of the smoke is black!
