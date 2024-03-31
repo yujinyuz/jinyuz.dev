@@ -7,4 +7,3 @@ post = '/:year/:month/:title/'
 
 [outputs]
 home = ["HTML", "RSS"]
-posts = ["HTML", "RSS"]
