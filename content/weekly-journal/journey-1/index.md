@@ -65,7 +65,7 @@ respective provinces, and that leaves the roads clear, less people, less traffic
 the times I enjoy riding a bike because I don't have to deal with drivers not respecting the bike
 lanes and also the smoke emitted by PUVs.[^2]
 
-![Smoke](./images/smoke.png)
+![Smoke](./images/smoke.webp)
 
 
 I should set a specific date and time on when I would start writing up my thoughts for the weekly

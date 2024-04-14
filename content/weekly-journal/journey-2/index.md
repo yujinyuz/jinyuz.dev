@@ -5,9 +5,9 @@ draft: false
 ---
 
 
-I'm not in the mood of writing today since something happened within my personal life that I'm not
-comfortable talking about just yet. Nonetheless, I've tried to force my self to start getting into
-writing just so I won't lose my streak.
+I'm not in the mood of writing today since I'm going through some sort of phase in my life.
+Nonetheless, I've tried to force my self to start getting into writing just so I won't lose my
+streak.
 
 I think I'd also need some kind of scratch pad or idea pad where in I could put random topics that
 come out during the week so I could have some idea on what to write on my weekly journal.

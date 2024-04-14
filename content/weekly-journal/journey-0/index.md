@@ -49,7 +49,7 @@ I've been a die hard fan of the Vim Philosophy and been using Neovim for around 
 
 I haven't touched my configuration for a long time.
 
-![Screenshot where I did not have any git commits for the past 10 months](./images/no-commits.png)
+![Screenshot where I did not have any git commits for the past 10 months](./images/no-commits.webp)
 
 I did perform some changes to my [dotfiles](https://github.com/yujinyuz/dotfiles) but I barely had
 any time to come up with a message and commit the the files to git.
