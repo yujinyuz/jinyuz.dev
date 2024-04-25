@@ -1,7 +1,10 @@
 ---
-title: "Weekly Journal"
+title: "journalctl"
 showDate: false
 showEdit: false
 showReadingTime: false
-showPagination: false
 ---
+
+```console
+$ sudo journalctl -f
+```

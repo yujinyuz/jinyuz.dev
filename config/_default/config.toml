@@ -2,8 +2,5 @@ baseURL = "https://jinyuz.dev"
 languageCode = "en"
 paginate = 10
 
-[permalinks]
-post = '/:year/:month/:title/'
-
 [outputs]
 home = ["HTML", "RSS"]

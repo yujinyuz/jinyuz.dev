@@ -26,12 +26,12 @@ showTableOfContents = true
 showTaxonomies = true
 showWordCount = true
 showComments = true
-sharingLinks = ["facebook", "twitter", "reddit", "linkedin"]
+sharingLinks = ["facebook", "x-twitter", "reddit", "linkedin"]
 
 [list]
 showBreadcrumbs = false
 showSummary = false
-showTableOfContents = true
+showTableOfContents = false
 groupByYear = false
 
 [footer]

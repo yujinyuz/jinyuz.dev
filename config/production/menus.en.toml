@@ -5,15 +5,11 @@ weight = 10
 
 
 [[main]]
-name = "About"
-pageRef = "about"
+name = "Uses"
+pageRef = "uses"
 weight = 20
 
 [[main]]
-name = "Uses"
-pageRef = "uses"
+name = "About"
+pageRef = "about"
 weight = 30
-
-[[main]]
-name = "Logs"
-pageRef = "logs"
