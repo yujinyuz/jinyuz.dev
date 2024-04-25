@@ -1,6 +1,7 @@
 # See https://gohugo.io/content-management/urls/#tokens
+
 [page]
-logs = '/logs/:slugorfilename'
+logs = '/logs/:slugorfilename.log'
 
 [section]
 logs = '/logs'
