@@ -1,5 +1,5 @@
 ---
-title: "Posts"
+title: "/ posts"
 showDate: false
 showEdit: false
 showReadingTime: false

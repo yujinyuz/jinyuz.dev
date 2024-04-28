@@ -1,5 +1,5 @@
 ---
-title: "Uses"
+title: "/ uses"
 showDate: false
 showEdit: false
 showReadingTime: false
@@ -35,7 +35,7 @@ this page is dedicated for that 😉 Based on [uses.tech](https://uses.tech)
 - **universal-ctags** -- for generating `tags` file when working on projects. Pretty fast
 - **kitty** -- Previously used `alacritty` and `iTerm2`
 - **raycast** -- can't say it's better than [Alfred]() but it's _free_ and I've been happily using it!
-                 I also use this as a replacement for [rectangle]()
+                 I also use this as a replacement for [rectangle](https://rectangleapp.com/)
 - **bitwarden** -- an open source password manager. I think I started using pw managers around
                 _October 2019_.
 - **kap** -- a screen recorder. I usually use it for recording GIFs when reporting issues to

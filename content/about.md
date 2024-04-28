@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "/ about"
 showDate: false
 showEdit: false
 showReadingTime: false

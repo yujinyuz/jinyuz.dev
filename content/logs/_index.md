@@ -1,5 +1,5 @@
 ---
-title: "journalctl"
+title: "/ logs"
 showDate: false
 showEdit: false
 showReadingTime: false
