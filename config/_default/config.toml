@@ -1,6 +1,7 @@
 baseURL = "https://jinyuz.dev"
 languageCode = "en"
 paginate = 10
+enableRobotsTXT = true
 
 [outputs]
 home = ["HTML", "RSS"]
