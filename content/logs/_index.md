@@ -1,8 +1,11 @@
 ---
 title: "/ logs"
 showDate: false
-showEdit: false
-showReadingTime: false
+cascade:
+  showTableOfContents: false
+  showReadingTime: false
+  showWordCount: false
+  showEdit: false
 ---
 
 ```console
