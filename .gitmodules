@@ -1,4 +1,4 @@
 [submodule "static/talks"]
 	path = static/talks
 	url = https://github.com/yujinyuz/2ks.git
-	branch = rendered
+	branch = build
