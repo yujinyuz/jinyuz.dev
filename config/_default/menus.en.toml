@@ -15,5 +15,10 @@ pageRef = "uses"
 weight = 30
 
 [[main]]
+name = "/ talks"
+pageRef = "talks"
+weight = 40
+
+[[main]]
 name = "/ logs"
 pageRef = "logs"
